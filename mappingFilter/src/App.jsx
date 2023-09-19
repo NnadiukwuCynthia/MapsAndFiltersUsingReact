@@ -2,7 +2,8 @@ import './App.css'
 import Menu from './../Components/menu';
 import MenuList from './../Components/menuList';
 import Background from './Images/background.jpg'
-import Button from '../Components/Buttons';
+import Button from './../Components/button';
+import Footer from './../Components/footer';
 
 function App() {
   // const showCategories = [...new Set(Menu.map((cat) => cat.category))]
@@ -13,13 +14,12 @@ function App() {
         <div>
           <img src={Background} alt="bgc" className='bgcImage'/>
         </div>
-        <Button>
-          {/* Categories = {showCategories} */}
-        </Button>
+        <Button/>
         <Menu/>
+        <Footer/>
       </div>
     </>
   )
 }
 
-export default App
+export default App;
