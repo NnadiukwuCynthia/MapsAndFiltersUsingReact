@@ -1,5 +1,33 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.menu{
+  display: flex;
+  justify-content: right;
+  background-color: goldenrod;
+}
+.bgcImage{
+  width: 100%;
+  height: 450px;
+}
+.menuItems{
+  width: 200px;
+  display: flex;
+  align-items: start;
+  cursor: pointer;
+}
+.menuItems h2{
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.menuItems h2:hover{
+  color: darkred;
+  transition: 1s;
+}
 .Menu_container{
-  padding: 20px;
+  padding: 10px 20px;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -8,9 +36,9 @@
 }
 .eachMenu{
   padding: 0;
-  margin: 10px 25px;
-  width: 250px;
-  height: auto;
+  margin: 15px 10px;
+  width: 300px;
+  height: 400px;
 }
 .menuImage {
   padding-top: 0;
