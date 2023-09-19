@@ -10,10 +10,10 @@ const Menu = () => {
                     return (
                         <div key={index} className='eachMenu'>
                             <img src={Image} alt={Title} className='menuImage'/>
-                            <h3>{Title}</h3>
-                            <p>{Category}</p>
-                            <p>{Price}</p>
-                            <p>{Description}</p>
+                            <h3 className='title'>{Title}</h3>
+                            <p className='category' >{Category}</p>
+                            <p className='category'>{Price}</p>
+                            <p className='description'>{Description}</p>
                         </div>
                     )
                 })
